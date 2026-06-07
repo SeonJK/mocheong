@@ -493,9 +493,9 @@ export function InvitationPage() {
         <Section className="couple-section">
           <div className="couple-column">
             {[
-              ["신랑", invitationConfig.couple.groom, "의 자녀"],
-              ["신부", invitationConfig.couple.bride, "의 자녀"]
-            ].map(([label, person, suffix]) => (
+              ["신랑", invitationConfig.couple.groom],
+              ["신부", invitationConfig.couple.bride]
+            ].map(([label, person]) => (
               <div className="couple-line" key={label as string}>
                 <div className="couple-name">
                   <span>{label as string}</span>
@@ -506,7 +506,7 @@ export function InvitationPage() {
                 </div>
                 <p>
                   {(person as typeof invitationConfig.couple.groom).parents.join(" · ")}
-                  {suffix as string}
+                  의 {(person as typeof invitationConfig.couple.groom).relation}
                 </p>
               </div>
             ))}

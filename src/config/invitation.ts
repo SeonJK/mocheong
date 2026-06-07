@@ -4,11 +4,13 @@ export type InvitationConfig = {
       name: string;
       phone: string;
       parents: string[];
+      relation: string;
     };
     bride: {
       name: string;
       phone: string;
       parents: string[];
+      relation: string;
     };
   };
   wedding: {
@@ -53,16 +55,18 @@ export const invitationConfig: InvitationConfig = {
     groom: {
       name: "윤준수",
       phone: "010-0000-0000",
-      parents: ["이민호", "박정희"]
+      parents: ["윤석언", "안현숙"],
+      relation: "차남"
     },
     bride: {
       name: "차수민",
       phone: "010-0000-0000",
-      parents: ["김도윤", "한서연"]
+      parents: ["차영균", "한미란"],
+      relation: "장녀"
     }
   },
   wedding: {
-    dateTime: "2026-10-24T14:00:00+09:00",
+    dateTime: "2026-09-19T18:00:00+09:00",
     venueName: "라비에벨",
     hall: "8층 오페라홀",
     address: "서울 강남구 테헤란로 521",
