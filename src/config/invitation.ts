@@ -51,20 +51,20 @@ export type InvitationConfig = {
 export const invitationConfig: InvitationConfig = {
   couple: {
     groom: {
-      name: "이준서",
+      name: "윤준수",
       phone: "010-0000-0000",
       parents: ["이민호", "박정희"]
     },
     bride: {
-      name: "김시연",
+      name: "차수민",
       phone: "010-0000-0000",
       parents: ["김도윤", "한서연"]
     }
   },
   wedding: {
     dateTime: "2026-10-24T14:00:00+09:00",
-    venueName: "그랜드 인터컨티넨탈 서울 파르나스",
-    hall: "5F 그랜드볼룸",
+    venueName: "라비에벨",
+    hall: "8층 오페라홀",
     address: "서울 강남구 테헤란로 521",
     lat: 37.50933,
     lng: 127.06138,
@@ -95,14 +95,14 @@ export const invitationConfig: InvitationConfig = {
       label: "신랑",
       bank: "카카오뱅크",
       number: "3333-12-3456789",
-      holder: "이준서"
+      holder: "윤준수"
     },
     {
       side: "bride",
       label: "신부",
       bank: "신한은행",
       number: "110-123-456789",
-      holder: "김시연"
+      holder: "차수민"
     }
   ],
   notices: [
